@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pip install tw-framework && python -m tw_framework.cli build --prod",
+  "outputDirectory": "dist",
+  "installCommand": "pip install tw-framework",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
