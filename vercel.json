@@ -1,6 +1,5 @@
 {
   "installCommand": "pip install --break-system-packages tw-framework>=0.6.4",
   "buildCommand": "python -m tw_framework.cli build --prod",
-  "outputDirectory": "dist",
-  "framework": null
+  "outputDirectory": "dist"
 }
